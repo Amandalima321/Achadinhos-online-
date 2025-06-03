@@ -1,2 +1,58 @@
 # Achadinhos-online-
 https://achadinhosonline.com/ofertas
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Achadinhos Online</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .logo {
+      max-width: 200px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #ff6600;
+      margin-bottom: 20px;
+    }
+
+    a.button {
+      background-color: #ff6600;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #e65700;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Achadinhos Online" class="logo">
+  <h1>Achadinhos Online</h1>
+  <a href="https://achadinhosonline.com/ofertas" class="button" target="_blank">
+    Acesse as ofertas
+  </a>
+</body>
+</html>
